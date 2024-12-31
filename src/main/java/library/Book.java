@@ -39,7 +39,7 @@ public class Book {
                 '}';
     }
     @Override
-    public void Display(){
+    public void display(){
         System.out.println("the title of the book is "+getTitle()+" and the author for the book is "+getAuthor()+" and the isbn of the book is " +getIsbn());
     }
 }
